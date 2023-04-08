@@ -13,12 +13,13 @@ public class Main {
         Curso curso2 = new Curso();
         curso2.setTitulo("Curso javascript");
         curso2.setDescricao("descrição curso javascript");
-        curso2.setCargaHoraria(10);
+        curso2.setCargaHoraria(4);
 
         Mentoria mentoria = new Mentoria();
         mentoria.setTitulo("Mentoria de Java");
         mentoria.setDescricao("Mentoria sobre Java");
         mentoria.setData(LocalDate.now());
+
 
         System.out.println(curso1);
         System.out.println(curso2);
